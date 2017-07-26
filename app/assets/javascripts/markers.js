@@ -5,3 +5,4 @@ $.ajax(settings).done(function(result) {
   console.log(result.nearbys);
   piano_locations = result.nearbys
 })
+  
