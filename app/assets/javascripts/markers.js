@@ -1,8 +1,12 @@
-var settings = {url: '/api_current'}
-var piano_locations
-
-$.ajax(settings).done(function(result) {
-  console.log(result.nearbys);
-  piano_locations = result.nearbys
-})
-  
+// var piano_locations
+//
+// $.ajax('/api_current').done(function(result) {
+//   piano_locations = result.nearbys;
+//   piano_locations.forEach(function(piano) {
+//     console.log(piano.latitude);
+//     new google.maps.Marker({
+//       position: {lat: piano.latitude, lng: piano.longitude},
+//       map: googleMap
+//     });
+//   });
+// })
